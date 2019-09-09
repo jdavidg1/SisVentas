@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaPresentacion\CapaPresentacion.csproj">
+      <Project>{7cb8f186-de09-4604-80ff-cb860aaf4ff1}</Project>
+      <Name>CapaPresentacion</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
